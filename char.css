@@ -1,0 +1,73 @@
+.character{
+	height: 100%;
+	margin-left: 280px;
+	background-color: #0b5e5d;
+	padding-bottom: 86px;
+
+}
+.teacher{
+	border-radius: 50%;
+	border: 2px solid black;
+	height: 30%;
+	width: 30%;
+	margin-top: 60px;
+	margin-left: 150px;
+}
+.infotech{
+	border-radius: 50%;
+	border: 2px solid black;
+	height: 30%;
+	width: 30%;
+	margin-top: 150px;
+	margin-left: 600px;
+}
+.crim{
+	border-radius: 50%;
+	border: 2px solid black;
+	height: 30%;
+	width: 30%;
+	margin-top: 150px;
+	margin-left: 150px;
+}
+.descriptionOne{
+	margin-top: -220px ;
+	margin-left: 550px;
+	color: #ffffff;
+	font-size: 25px;
+	font-style: Sans-serif;
+}
+.descriptionTwo{
+	margin-top: -230px ;
+	margin-left: 110px;
+	color: #ffffff;
+	font-size: 25px;
+	font-style: Sans-serif;
+}
+.descriptionThree{
+	margin-top: -200px ;
+	margin-left: 500px;
+	color: #ffffff;
+	font-size: 25px;
+	font-style: Sans-serif;
+}
+.containers{
+	text-align: center;
+}
+.fb, .inst, .twit{
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+}
+li{
+	text-align: center;
+}
+footer{
+	padding: 20px;
+	background-color: #101c11;
+	margin-left: 280px;
+}
+@media screen and (max-width: 800px) {
+  .character {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}

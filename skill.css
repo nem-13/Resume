@@ -1,0 +1,56 @@
+.skill{
+  height: 100%;
+  margin-left: 300px;
+  background-color: #446e51;
+  padding-bottom: 86px;
+}
+.h4{
+  font-style: monospace;
+  font-size: 100px;
+}
+.column {
+  float: left;
+  margin-top: 34px;
+  width: 50%;
+  padding: 10px;
+}
+.column li{
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p{
+  font-size: 30px;
+  text-align: center;
+}
+li{
+  font-size: 25px;
+
+}
+.checked{
+  color: yellow;
+}
+.containers{
+  text-align: center;
+}
+.fb, .inst, .twit{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+.list li{
+  text-align: center;
+  font-size: 15px;
+}
+footer{
+  padding: 20px;
+  background-color: #101c11;
+  margin-left: 280px;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+}
